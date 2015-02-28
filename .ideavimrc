@@ -1,0 +1,28 @@
+imap jj <Esc>
+
+" save changes
+map <D-s> :w<CR>
+map <leader>s :w<CR>
+
+" save on losing focus
+au FocusLost * :wa
+
+set clipboard=unnamedplus
+
+" make Vim deal with case-sensitive search intelligently
+set ignorecase
+set smartcase
+
+" Applies substitutions globally on lines. For example,
+" instead of :%s/foo/bar/g you just type :%s/foo/bar/
+set gdefault
+
+" Enable incremental search
+set incsearch
+
+" highlight results of a search
+set hlsearch
+
+" Visual shifting (does not exit Visual mode)
+vnoremap < <gv
+vnoremap > >gv
