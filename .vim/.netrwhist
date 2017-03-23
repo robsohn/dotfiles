@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/rraszczynski/Sites/dev.acnestudios.com/public/app/design/frontend/enterprise/acne-millennium/template/adyen/form'
-let g:netrw_dirhist_2='/Users/rraszczynski/Sites/dev.acnestudios.com/public/app/design/frontend/enterprise/acne-millennium/template/customer'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/rraszczynski/Sites/dev.acnestudios.com/public/app/code/local/Acne/CatalogSearch'
+let g:netrw_dirhist_2='/Users/rraszczynski/Sites/dev.acnestudios.com/public/app/code/local/Acne'
+let g:netrw_dirhist_3='/Users/rraszczynski/Sites/dev.acnestudios.com/public/app/code/local/Acne/Shipping'
+let g:netrw_dirhist_4='/Users/rraszczynski/Sites/dev.acnestudios.com/public/app/code/local/Acne'
+let g:netrw_dirhist_5='/Users/rraszczynski/Sites/mesto/tools/capistrano/config/deploy'
+let g:netrw_dirhist_6='/Users/rraszczynski/Sites/mesto/tools/capistrano/config'

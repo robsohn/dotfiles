@@ -7,7 +7,7 @@ map <leader>s :w<CR>
 " save on losing focus
 au FocusLost * :wa
 
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " make Vim deal with case-sensitive search intelligently
 set ignorecase

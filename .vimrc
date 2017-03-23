@@ -198,4 +198,4 @@ set scrolloff=3
 set colorcolumn=100
 
 " Copy to system clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
