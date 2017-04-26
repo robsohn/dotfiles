@@ -34,3 +34,8 @@ export PATH=/usr/local/sbin:$PATH:/usr/local/mysql/bin
 if which hem > /dev/null; then eval "$(hem shell-init bash --skip-host-checks)"; fi
 
 export EDITOR=$(which vi)
+
+export DOCKER_HOST=tcp://192.168.99.100:2376
+export DOCKER_CERT_PATH=/Users/rraszczynski/.docker/machine/machines/dinghy
+export DOCKER_TLS_VERIFY=1
+export DOCKER_MACHINE_NAME=dinghy
