@@ -19,14 +19,12 @@ alias gpl="git pull origin"
 alias gm="git merge --no-ff"
 alias gcm="git commit"
 
-alias vim='mvim -v'                         # Use MacVim instead of vim
-alias vi='mvim -v'                          # Use MacVim instead of vim
+#alias vim='mvim -v'                         # Use MacVim instead of vim
+#alias vi='mvim -v'                          # Use MacVim instead of vim
 alias cp='cp -v'                           # Preferred 'cp' implementation
 alias mv='mv -v'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
-
-alias proxy="ssh -D 9999 -v -C -N frontdoor"
 
 export PATH=/usr/local/sbin:$PATH:/usr/local/mysql/bin
 
@@ -35,7 +33,5 @@ if which hem > /dev/null; then eval "$(hem shell-init bash --skip-host-checks)";
 
 export EDITOR=$(which vi)
 
-export DOCKER_HOST=tcp://192.168.99.100:2376
-export DOCKER_CERT_PATH=/Users/rraszczynski/.docker/machine/machines/dinghy
-export DOCKER_TLS_VERIFY=1
-export DOCKER_MACHINE_NAME=dinghy
+# Set PATH for symfony CLI tool
+export PATH="$HOME/.symfony/bin:$PATH"
