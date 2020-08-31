@@ -28,7 +28,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Set system clipboard
-set clipboard=unnamed
+set clipboard+=unnamedplus
 
 " Place new window below for hsplit
 set splitbelow
